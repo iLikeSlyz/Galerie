@@ -7,14 +7,18 @@ body {
 @media screen and (max-width: 1280px) {
 }
 
-@font-face
-{
-font-family: "ma_police";
-src: url("/Site web/Galerie/Glam_Queen.ttf");
+
+@font-face {
+    font-family: 'glam_queen_regular';
+    src: url('glam_queen.woff2') format('woff2'),
+         url('glam_queen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 h1 {
-  font-family: "ma_police";
+  font-family: "glam_queen_regular";
   padding-top: 25px;
   text-align: center;
   font-size: 100px;
