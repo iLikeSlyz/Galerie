@@ -19,13 +19,18 @@ body {
 }
 
 h5 {
-  color: black;
   font-family: "glam_queen_regular";
   padding-top: 25px;
   text-align: center;
-  font-size: 100px;
-
+  font-size: 200px;
 }
+
+a {
+  
+text-decoration: none; /* Les liens ne seront plus soulignés */
+color: black; /* Les liens seront en rouge au lieu de bleu */
+ }
+
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
 body{
     font-family: 'Quicksand', sans-serif;
